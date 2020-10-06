@@ -1,0 +1,10 @@
+C:\Users\senab\source\repos\GCU.repo\InClassAssignment4\InClassAssignment4\bin\Debug\InClassAssignment4.exe.config
+C:\Users\senab\source\repos\GCU.repo\InClassAssignment4\InClassAssignment4\bin\Debug\InClassAssignment4.exe
+C:\Users\senab\source\repos\GCU.repo\InClassAssignment4\InClassAssignment4\bin\Debug\InClassAssignment4.pdb
+C:\Users\senab\source\repos\GCU.repo\InClassAssignment4\InClassAssignment4\obj\Debug\InClassAssignment4.csprojAssemblyReference.cache
+C:\Users\senab\source\repos\GCU.repo\InClassAssignment4\InClassAssignment4\obj\Debug\InClassAssignment4.Form1.resources
+C:\Users\senab\source\repos\GCU.repo\InClassAssignment4\InClassAssignment4\obj\Debug\InClassAssignment4.Properties.Resources.resources
+C:\Users\senab\source\repos\GCU.repo\InClassAssignment4\InClassAssignment4\obj\Debug\InClassAssignment4.csproj.GenerateResource.cache
+C:\Users\senab\source\repos\GCU.repo\InClassAssignment4\InClassAssignment4\obj\Debug\InClassAssignment4.csproj.CoreCompileInputs.cache
+C:\Users\senab\source\repos\GCU.repo\InClassAssignment4\InClassAssignment4\obj\Debug\InClassAssignment4.exe
+C:\Users\senab\source\repos\GCU.repo\InClassAssignment4\InClassAssignment4\obj\Debug\InClassAssignment4.pdb
