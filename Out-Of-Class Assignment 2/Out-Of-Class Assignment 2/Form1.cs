@@ -168,5 +168,14 @@ namespace Out_Of_Class_Assignment_2
                 }
             }
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            //===========================================
+            //          Clear the selection
+            //===========================================
+            lblAnimeName.Text = "";
+            lblEpisodes.Text = "";
+        }
     }
 }
