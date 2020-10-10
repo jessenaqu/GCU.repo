@@ -92,5 +92,29 @@
   <ItemGroup>
     <None Include="Resources\soul eater.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Your Lie in April.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kakegurui.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\another.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\when they cry.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toradora.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\love is war.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K-On.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nichijou.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -79,6 +79,7 @@ namespace Out_Of_Class_Assignment_2
                 {
                     lblEpisodes.Text = "51 Episodes";
                 }
+                picBoxSoulEater.Visible = true;
             }
             if ((listBoxGenre.SelectedIndex == 1) & (btnAnime1.Checked))
             {
@@ -90,6 +91,7 @@ namespace Out_Of_Class_Assignment_2
                 {
                     lblEpisodes.Text = "22 Episodes";
                 }
+                picBoxYLiA.Visible = true;
             }
             if ((listBoxGenre.SelectedIndex == 1) & (btnAnime2.Checked))
             {
@@ -101,6 +103,7 @@ namespace Out_Of_Class_Assignment_2
                 {
                     lblEpisodes.Text = "24 Episodes";
                 }
+                picBoxKakegurui.Visible = true;
             }
             if ((listBoxGenre.SelectedIndex == 2) & (btnAnime1.Checked))
             {
@@ -112,6 +115,7 @@ namespace Out_Of_Class_Assignment_2
                 {
                     lblEpisodes.Text = "12 Episodes";
                 }
+                picBoxAnother.Visible = true;
             }
             if ((listBoxGenre.SelectedIndex == 2) & (btnAnime2.Checked))
             {
@@ -123,6 +127,7 @@ namespace Out_Of_Class_Assignment_2
                 {
                     lblEpisodes.Text = "55 Episodes";
                 }
+                picBoxWhenTheyCry.Visible = true; 
             }
             if ((listBoxGenre.SelectedIndex == 3) & (btnAnime1.Checked))
             {
@@ -134,6 +139,7 @@ namespace Out_Of_Class_Assignment_2
                 {
                     lblEpisodes.Text = "25 Episodes";
                 }
+                picBoxToradora.Visible = true;
             }
             if ((listBoxGenre.SelectedIndex == 3) & (btnAnime2.Checked))
             {
@@ -145,6 +151,7 @@ namespace Out_Of_Class_Assignment_2
                 {
                     lblEpisodes.Text = "12 Episodes";
                 }
+                picBoxLoveisWar.Visible = true;
             }
             if ((listBoxGenre.SelectedIndex == 4) & (btnAnime1.Checked))
             {
@@ -156,6 +163,7 @@ namespace Out_Of_Class_Assignment_2
                 {
                     lblEpisodes.Text = "13 Episodes";
                 }
+                picBoxKOn.Visible = true; 
             }
             if ((listBoxGenre.SelectedIndex == 4) & (btnAnime2.Checked))
             {
@@ -167,6 +175,7 @@ namespace Out_Of_Class_Assignment_2
                 {
                     lblEpisodes.Text = "26 Episodes";
                 }
+                picBoxNichijou.Visible = true; 
             }
         }
 
@@ -179,9 +188,22 @@ namespace Out_Of_Class_Assignment_2
             lblEpisodes.Text = "";
             picBoxTokyoGhoul.Visible = false;
             picBoxSoulEater.Visible = false;
+            picBoxYLiA.Visible = false;
+            picBoxKakegurui.Visible = false;
+            picBoxAnother.Visible = false;
+            picBoxWhenTheyCry.Visible = false;
+            picBoxToradora.Visible = false;
+            picBoxLoveisWar.Visible = false;
+            picBoxKOn.Visible = false;
+            picBoxNichijou.Visible = false; 
         }
 
         private void ckBoxName_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

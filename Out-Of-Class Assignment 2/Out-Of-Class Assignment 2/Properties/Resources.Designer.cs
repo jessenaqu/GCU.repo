@@ -73,6 +73,56 @@ namespace Out_Of_Class_Assignment_2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap another {
+            get {
+                object obj = ResourceManager.GetObject("another", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap K_On {
+            get {
+                object obj = ResourceManager.GetObject("K-On", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kakegurui {
+            get {
+                object obj = ResourceManager.GetObject("kakegurui", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap love_is_war {
+            get {
+                object obj = ResourceManager.GetObject("love is war", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nichijou {
+            get {
+                object obj = ResourceManager.GetObject("Nichijou", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap p5r {
             get {
                 object obj = ResourceManager.GetObject("p5r", resourceCulture);
@@ -96,6 +146,36 @@ namespace Out_Of_Class_Assignment_2.Properties {
         internal static System.Drawing.Bitmap tokyo_ghoul_2014 {
             get {
                 object obj = ResourceManager.GetObject("tokyo-ghoul-2014", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap toradora {
+            get {
+                object obj = ResourceManager.GetObject("toradora", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap when_they_cry {
+            get {
+                object obj = ResourceManager.GetObject("when they cry", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Your_Lie_in_April {
+            get {
+                object obj = ResourceManager.GetObject("Your Lie in April", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

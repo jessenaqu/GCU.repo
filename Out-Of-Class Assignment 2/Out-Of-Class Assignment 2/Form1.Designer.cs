@@ -40,10 +40,26 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.lblEpisodes = new System.Windows.Forms.Label();
             this.lblAnimeName = new System.Windows.Forms.Label();
+            this.picBoxNichijou = new System.Windows.Forms.PictureBox();
+            this.picBoxKOn = new System.Windows.Forms.PictureBox();
+            this.picBoxLoveisWar = new System.Windows.Forms.PictureBox();
+            this.picBoxToradora = new System.Windows.Forms.PictureBox();
+            this.picBoxWhenTheyCry = new System.Windows.Forms.PictureBox();
+            this.picBoxAnother = new System.Windows.Forms.PictureBox();
+            this.picBoxKakegurui = new System.Windows.Forms.PictureBox();
+            this.picBoxYLiA = new System.Windows.Forms.PictureBox();
             this.picBoxSoulEater = new System.Windows.Forms.PictureBox();
             this.picBoxTokyoGhoul = new System.Windows.Forms.PictureBox();
             this.grpBoxAnimeSelect.SuspendLayout();
             this.grpBoxDetails.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxNichijou)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxKOn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxLoveisWar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxToradora)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxWhenTheyCry)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxAnother)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxKakegurui)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxYLiA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxSoulEater)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxTokyoGhoul)).BeginInit();
             this.SuspendLayout();
@@ -175,7 +191,9 @@
             // lblEpisodes
             // 
             this.lblEpisodes.AutoSize = true;
+            this.lblEpisodes.BackColor = System.Drawing.Color.Transparent;
             this.lblEpisodes.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEpisodes.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.lblEpisodes.Location = new System.Drawing.Point(700, 422);
             this.lblEpisodes.Name = "lblEpisodes";
             this.lblEpisodes.Size = new System.Drawing.Size(0, 36);
@@ -184,11 +202,101 @@
             // lblAnimeName
             // 
             this.lblAnimeName.AutoSize = true;
+            this.lblAnimeName.BackColor = System.Drawing.Color.Transparent;
             this.lblAnimeName.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnimeName.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.lblAnimeName.Location = new System.Drawing.Point(700, 386);
             this.lblAnimeName.Name = "lblAnimeName";
             this.lblAnimeName.Size = new System.Drawing.Size(0, 36);
             this.lblAnimeName.TabIndex = 8;
+            // 
+            // picBoxNichijou
+            // 
+            this.picBoxNichijou.Image = global::Out_Of_Class_Assignment_2.Properties.Resources.Nichijou;
+            this.picBoxNichijou.Location = new System.Drawing.Point(494, 72);
+            this.picBoxNichijou.Name = "picBoxNichijou";
+            this.picBoxNichijou.Size = new System.Drawing.Size(523, 291);
+            this.picBoxNichijou.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxNichijou.TabIndex = 18;
+            this.picBoxNichijou.TabStop = false;
+            this.picBoxNichijou.Visible = false;
+            // 
+            // picBoxKOn
+            // 
+            this.picBoxKOn.Image = global::Out_Of_Class_Assignment_2.Properties.Resources.K_On;
+            this.picBoxKOn.Location = new System.Drawing.Point(494, 72);
+            this.picBoxKOn.Name = "picBoxKOn";
+            this.picBoxKOn.Size = new System.Drawing.Size(523, 291);
+            this.picBoxKOn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxKOn.TabIndex = 17;
+            this.picBoxKOn.TabStop = false;
+            this.picBoxKOn.Visible = false;
+            // 
+            // picBoxLoveisWar
+            // 
+            this.picBoxLoveisWar.Image = global::Out_Of_Class_Assignment_2.Properties.Resources.love_is_war;
+            this.picBoxLoveisWar.Location = new System.Drawing.Point(494, 72);
+            this.picBoxLoveisWar.Name = "picBoxLoveisWar";
+            this.picBoxLoveisWar.Size = new System.Drawing.Size(523, 291);
+            this.picBoxLoveisWar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxLoveisWar.TabIndex = 16;
+            this.picBoxLoveisWar.TabStop = false;
+            this.picBoxLoveisWar.Visible = false;
+            // 
+            // picBoxToradora
+            // 
+            this.picBoxToradora.Image = global::Out_Of_Class_Assignment_2.Properties.Resources.toradora;
+            this.picBoxToradora.Location = new System.Drawing.Point(494, 72);
+            this.picBoxToradora.Name = "picBoxToradora";
+            this.picBoxToradora.Size = new System.Drawing.Size(523, 291);
+            this.picBoxToradora.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxToradora.TabIndex = 15;
+            this.picBoxToradora.TabStop = false;
+            this.picBoxToradora.Visible = false;
+            // 
+            // picBoxWhenTheyCry
+            // 
+            this.picBoxWhenTheyCry.Image = global::Out_Of_Class_Assignment_2.Properties.Resources.when_they_cry;
+            this.picBoxWhenTheyCry.Location = new System.Drawing.Point(494, 72);
+            this.picBoxWhenTheyCry.Name = "picBoxWhenTheyCry";
+            this.picBoxWhenTheyCry.Size = new System.Drawing.Size(523, 291);
+            this.picBoxWhenTheyCry.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxWhenTheyCry.TabIndex = 14;
+            this.picBoxWhenTheyCry.TabStop = false;
+            this.picBoxWhenTheyCry.Visible = false;
+            // 
+            // picBoxAnother
+            // 
+            this.picBoxAnother.Image = global::Out_Of_Class_Assignment_2.Properties.Resources.another;
+            this.picBoxAnother.Location = new System.Drawing.Point(579, 72);
+            this.picBoxAnother.Name = "picBoxAnother";
+            this.picBoxAnother.Size = new System.Drawing.Size(346, 291);
+            this.picBoxAnother.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxAnother.TabIndex = 13;
+            this.picBoxAnother.TabStop = false;
+            this.picBoxAnother.Visible = false;
+            // 
+            // picBoxKakegurui
+            // 
+            this.picBoxKakegurui.Image = global::Out_Of_Class_Assignment_2.Properties.Resources.kakegurui;
+            this.picBoxKakegurui.Location = new System.Drawing.Point(494, 72);
+            this.picBoxKakegurui.Name = "picBoxKakegurui";
+            this.picBoxKakegurui.Size = new System.Drawing.Size(523, 291);
+            this.picBoxKakegurui.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxKakegurui.TabIndex = 12;
+            this.picBoxKakegurui.TabStop = false;
+            this.picBoxKakegurui.Visible = false;
+            // 
+            // picBoxYLiA
+            // 
+            this.picBoxYLiA.Image = global::Out_Of_Class_Assignment_2.Properties.Resources.Your_Lie_in_April;
+            this.picBoxYLiA.Location = new System.Drawing.Point(494, 72);
+            this.picBoxYLiA.Name = "picBoxYLiA";
+            this.picBoxYLiA.Size = new System.Drawing.Size(523, 291);
+            this.picBoxYLiA.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxYLiA.TabIndex = 11;
+            this.picBoxYLiA.TabStop = false;
+            this.picBoxYLiA.Visible = false;
             // 
             // picBoxSoulEater
             // 
@@ -216,8 +324,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::Out_Of_Class_Assignment_2.Properties.Resources.aestheticAnimeBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1060, 547);
+            this.Controls.Add(this.picBoxNichijou);
+            this.Controls.Add(this.picBoxKOn);
+            this.Controls.Add(this.picBoxLoveisWar);
+            this.Controls.Add(this.picBoxToradora);
+            this.Controls.Add(this.picBoxWhenTheyCry);
+            this.Controls.Add(this.picBoxAnother);
+            this.Controls.Add(this.picBoxKakegurui);
+            this.Controls.Add(this.picBoxYLiA);
             this.Controls.Add(this.picBoxSoulEater);
             this.Controls.Add(this.picBoxTokyoGhoul);
             this.Controls.Add(this.lblAnimeName);
@@ -230,10 +347,19 @@
             this.Controls.Add(this.listBoxGenre);
             this.Name = "Form1";
             this.Text = "Anime Customizer";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.grpBoxAnimeSelect.ResumeLayout(false);
             this.grpBoxAnimeSelect.PerformLayout();
             this.grpBoxDetails.ResumeLayout(false);
             this.grpBoxDetails.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxNichijou)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxKOn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxLoveisWar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxToradora)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxWhenTheyCry)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxAnother)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxKakegurui)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxYLiA)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxSoulEater)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxTokyoGhoul)).EndInit();
             this.ResumeLayout(false);
@@ -257,6 +383,14 @@
         private System.Windows.Forms.Label lblAnimeName;
         private System.Windows.Forms.PictureBox picBoxTokyoGhoul;
         private System.Windows.Forms.PictureBox picBoxSoulEater;
+        private System.Windows.Forms.PictureBox picBoxYLiA;
+        private System.Windows.Forms.PictureBox picBoxKakegurui;
+        private System.Windows.Forms.PictureBox picBoxAnother;
+        private System.Windows.Forms.PictureBox picBoxWhenTheyCry;
+        private System.Windows.Forms.PictureBox picBoxToradora;
+        private System.Windows.Forms.PictureBox picBoxLoveisWar;
+        private System.Windows.Forms.PictureBox picBoxKOn;
+        private System.Windows.Forms.PictureBox picBoxNichijou;
     }
 }
 
