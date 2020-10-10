@@ -83,5 +83,14 @@
   <ItemGroup>
     <None Include="Resources\aestheticAnimeBackground.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p5r.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tokyo-ghoul-2014.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soul eater.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

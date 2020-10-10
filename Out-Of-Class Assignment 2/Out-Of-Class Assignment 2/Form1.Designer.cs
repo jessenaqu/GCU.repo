@@ -40,8 +40,12 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.lblEpisodes = new System.Windows.Forms.Label();
             this.lblAnimeName = new System.Windows.Forms.Label();
+            this.picBoxSoulEater = new System.Windows.Forms.PictureBox();
+            this.picBoxTokyoGhoul = new System.Windows.Forms.PictureBox();
             this.grpBoxAnimeSelect.SuspendLayout();
             this.grpBoxDetails.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSoulEater)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxTokyoGhoul)).BeginInit();
             this.SuspendLayout();
             // 
             // listBoxGenre
@@ -144,11 +148,12 @@
             this.ckBoxName.TabIndex = 0;
             this.ckBoxName.Text = "Name";
             this.ckBoxName.UseVisualStyleBackColor = false;
+            this.ckBoxName.CheckedChanged += new System.EventHandler(this.ckBoxName_CheckedChanged);
             // 
             // btnDisplayAnime
             // 
             this.btnDisplayAnime.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDisplayAnime.Location = new System.Drawing.Point(548, 375);
+            this.btnDisplayAnime.Location = new System.Drawing.Point(545, 461);
             this.btnDisplayAnime.Name = "btnDisplayAnime";
             this.btnDisplayAnime.Size = new System.Drawing.Size(155, 36);
             this.btnDisplayAnime.TabIndex = 5;
@@ -159,7 +164,7 @@
             // btnClear
             // 
             this.btnClear.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(799, 375);
+            this.btnClear.Location = new System.Drawing.Point(803, 461);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(155, 36);
             this.btnClear.TabIndex = 6;
@@ -171,7 +176,7 @@
             // 
             this.lblEpisodes.AutoSize = true;
             this.lblEpisodes.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEpisodes.Location = new System.Drawing.Point(720, 339);
+            this.lblEpisodes.Location = new System.Drawing.Point(700, 422);
             this.lblEpisodes.Name = "lblEpisodes";
             this.lblEpisodes.Size = new System.Drawing.Size(0, 36);
             this.lblEpisodes.TabIndex = 7;
@@ -180,10 +185,32 @@
             // 
             this.lblAnimeName.AutoSize = true;
             this.lblAnimeName.Font = new System.Drawing.Font("Javanese Text", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAnimeName.Location = new System.Drawing.Point(720, 303);
+            this.lblAnimeName.Location = new System.Drawing.Point(700, 386);
             this.lblAnimeName.Name = "lblAnimeName";
             this.lblAnimeName.Size = new System.Drawing.Size(0, 36);
             this.lblAnimeName.TabIndex = 8;
+            // 
+            // picBoxSoulEater
+            // 
+            this.picBoxSoulEater.Image = global::Out_Of_Class_Assignment_2.Properties.Resources.soul_eater;
+            this.picBoxSoulEater.Location = new System.Drawing.Point(494, 72);
+            this.picBoxSoulEater.Name = "picBoxSoulEater";
+            this.picBoxSoulEater.Size = new System.Drawing.Size(523, 291);
+            this.picBoxSoulEater.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxSoulEater.TabIndex = 10;
+            this.picBoxSoulEater.TabStop = false;
+            this.picBoxSoulEater.Visible = false;
+            // 
+            // picBoxTokyoGhoul
+            // 
+            this.picBoxTokyoGhoul.Image = global::Out_Of_Class_Assignment_2.Properties.Resources.tokyo_ghoul_2014;
+            this.picBoxTokyoGhoul.Location = new System.Drawing.Point(494, 72);
+            this.picBoxTokyoGhoul.Name = "picBoxTokyoGhoul";
+            this.picBoxTokyoGhoul.Size = new System.Drawing.Size(523, 291);
+            this.picBoxTokyoGhoul.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBoxTokyoGhoul.TabIndex = 9;
+            this.picBoxTokyoGhoul.TabStop = false;
+            this.picBoxTokyoGhoul.Visible = false;
             // 
             // Form1
             // 
@@ -191,6 +218,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1060, 547);
+            this.Controls.Add(this.picBoxSoulEater);
+            this.Controls.Add(this.picBoxTokyoGhoul);
             this.Controls.Add(this.lblAnimeName);
             this.Controls.Add(this.lblEpisodes);
             this.Controls.Add(this.btnClear);
@@ -205,6 +234,8 @@
             this.grpBoxAnimeSelect.PerformLayout();
             this.grpBoxDetails.ResumeLayout(false);
             this.grpBoxDetails.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSoulEater)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxTokyoGhoul)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,6 +255,8 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label lblEpisodes;
         private System.Windows.Forms.Label lblAnimeName;
+        private System.Windows.Forms.PictureBox picBoxTokyoGhoul;
+        private System.Windows.Forms.PictureBox picBoxSoulEater;
     }
 }
 

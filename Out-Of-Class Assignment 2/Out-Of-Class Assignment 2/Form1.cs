@@ -24,7 +24,7 @@ namespace Out_Of_Class_Assignment_2
             //===========================================
             if (listBoxGenre.SelectedIndex == 0)
             {
-                btnAnime1.Text = "Tokyo Ghoul"; 
+                btnAnime1.Text = "Tokyo Ghoul";
                 btnAnime2.Text = "Soul Eater";
             } 
             else if (listBoxGenre.SelectedIndex == 1)
@@ -55,7 +55,7 @@ namespace Out_Of_Class_Assignment_2
         private void btnDisplayAnime_Click(object sender, EventArgs e)
         {
             //===========================================
-            //             Select an Anime
+            //  Display picture, anime name & episodes 
             //===========================================
             if ((listBoxGenre.SelectedIndex == 0) & (btnAnime1.Checked))
             {
@@ -67,6 +67,7 @@ namespace Out_Of_Class_Assignment_2
                 {
                     lblEpisodes.Text = "12 Episodes";
                 }
+                picBoxTokyoGhoul.Visible = true; 
             }
             if ((listBoxGenre.SelectedIndex == 0) & (btnAnime2.Checked))
             {
@@ -176,6 +177,13 @@ namespace Out_Of_Class_Assignment_2
             //===========================================
             lblAnimeName.Text = "";
             lblEpisodes.Text = "";
+            picBoxTokyoGhoul.Visible = false;
+            picBoxSoulEater.Visible = false;
+        }
+
+        private void ckBoxName_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
